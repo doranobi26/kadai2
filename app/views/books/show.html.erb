@@ -1,0 +1,14 @@
+<p class="notice"><%=  notice %></p>
+<div class="show">
+<p><span>Title:</span><%=@book.title %></p>
+<p><span>Body:</span><%=@book.body %></p>
+</div>
+
+<%=link_to "Edit" ,edit_book_path(@book) %>
+|
+<%=link_to "Back" ,books_path %>
+
+
+
+
+
